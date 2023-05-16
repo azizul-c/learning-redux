@@ -19,7 +19,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<br/>
 
 # Important Takeaways
 
@@ -39,8 +38,6 @@ const incrementCounter = {
 ```
 
 Actions are typically dispatched to trigger state updates. They are created using action creators, which are functions that return the action objects.
-
-<br/>
 
 ### **🔹 Reducers**
 
@@ -71,8 +68,6 @@ function counterReducer(state = initialState, action) {
 }
 ```
 
-<br/>
-
 ### **🔹 Store**
 
 The store is the central hub that holds the application's state and facilitates interaction between components. It brings together the actions and reducers. The store is created using the `createStore` function from the Redux library and accepts a root reducer as an argument.
@@ -84,8 +79,6 @@ import { createStore } from "redux";
 
 const store = createStore(counterReducer);
 ```
-
-<br/>
 
 ### **🔹 Middleware (optional)**
 
